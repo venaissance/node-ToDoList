@@ -10,7 +10,6 @@ const db = {
       fs.readFile(path, {flag: 'a+'}, (err, data) => {
         if (err) return reject(err)
         let list
-        console.log('data', data.toString())
         try {
           list = JSON.parse(data.toString())
         } catch (e) {
