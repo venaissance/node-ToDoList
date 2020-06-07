@@ -8,4 +8,4 @@
 
 `do add [TASK]` 添加任务
 
-`do clear 清空任务`
+`do clear` 清空任务
