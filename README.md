@@ -12,10 +12,10 @@ yarn add global node-gtd
 
 ### 使用
 
-`do` 开启任务模式
+`dodo` 开启任务模式
 
-`do -h` 帮助模式
+`dodo -h` 帮助模式
 
-`do add [TASK]` 添加任务
+`dodo add [TASK]` 添加任务
 
-`do clear` 清空任务
+`dodo clear` 清空任务
