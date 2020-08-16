@@ -1,6 +1,6 @@
 #!/usr/bin/env node
 
-const {program} = require('commander')
+const { program } = require('commander')
 const api = require('./index')
 const pkg = require('./package.json')
 
@@ -20,7 +20,7 @@ program
 
 program
   .command('clear')
-  .description('清空任务列表')
+  .description('[危险] 清空任务列表')
   .action(() => {
     api.clear().then(() => console.log('清除成功！'), () => console.log('清除失败！'))
   })
