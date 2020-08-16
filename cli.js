@@ -9,7 +9,7 @@ program
 program
   .option('-A, --add', '添加任务')
 program
-  .option('-C, --clear', '清空任务')
+  .option('-C, --clear', '清空所有任务')
 
 program
   .command('add <taskName>')
@@ -20,7 +20,7 @@ program
 
 program
   .command('clear')
-  .description('清空任务')
+  .description('清空任务列表')
   .action(() => {
     api.clear().then(() => console.log('清除成功！'), () => console.log('清除失败！'))
   })

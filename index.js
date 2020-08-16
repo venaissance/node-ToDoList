@@ -97,7 +97,7 @@ function updateTitle(list, index) {
   inquirer.prompt({
     type: 'input',
     name: 'title',
-    message: '请输入新的标题名',
+    message: '请输入新的标题名称',
     default: list[index].title
   },).then(answer => {
     list[index].title = answer.title
